@@ -10,6 +10,7 @@ console.log('==========');
 
 
 //below forEach loop works same as above for loop
+// can't use forEach() if there are no array involved
 profileDataArr.forEach( profileItem => console.log(profileItem));
 };
 printProfileData(profileDataArgs);
